@@ -1,4 +1,4 @@
-package test.thread;
+package test.thread.learnThread;
 
 public class RunThreads {
     public static void main(String[] args) {
