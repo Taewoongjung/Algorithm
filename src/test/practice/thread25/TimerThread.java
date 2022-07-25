@@ -1,7 +1,5 @@
 package test.practice.thread25;
 
-import java.util.Date;
-
 public class TimerThread extends Thread {
     private long sleepTime;
 
