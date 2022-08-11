@@ -5,8 +5,9 @@ public class CustomException {
         CustomException customException = new CustomException();
         try {
             customException.throwMyException(13);
-        } catch (MyException myException) {
-
+            System.out.println("aaa");
+        } catch (MyException exception) {
+            exception.printStackTrace();
         }
     }
 
