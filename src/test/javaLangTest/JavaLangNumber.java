@@ -1,4 +1,4 @@
-package test.autoChange;
+package test.javaLangTest;
 
 public class JavaLangNumber {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package test.generic;
+package test.generic.wildcardGenericTest;
 
 public class Car {
     protected String name;
@@ -9,8 +9,6 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "name='" + name + '\'' +
-                '}';
+        return "Car name = " + name;
     }
 }
