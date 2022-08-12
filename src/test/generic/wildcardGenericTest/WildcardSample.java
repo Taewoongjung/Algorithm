@@ -24,4 +24,11 @@ public class WildcardSample {
         System.out.println(value);
         System.out.println(value.getClass().getSimpleName());
     }
+
+//    public void callWildcardMethod2(WildcardGeneric<?> c) {
+//        WildcardGeneric<?> wildcard = new WildcardGeneric<>();
+//        wildcard.setWildcard("a");
+//        wildcardStringMethod(wildcard);
+//    }
+
 }

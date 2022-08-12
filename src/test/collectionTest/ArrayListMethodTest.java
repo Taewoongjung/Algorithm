@@ -1,7 +1,6 @@
 package test.collectionTest;
 
 import test.generic.GenericDTO;
-import test.generic.WildcardGeneric;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,19 +8,22 @@ import java.util.List;
 public class ArrayListMethodTest {
     public static void main(String[] args) {
         ArrayListMethodTest arrayListMethodTest = new ArrayListMethodTest();
-        List list = new ArrayList<>(2);
+        List list = new ArrayList<>();
+        System.out.println("before size " + list.size());
         GenericDTO dto = new GenericDTO();
         dto.setObject("Hi");
         dto.setObject(12);
 
         list.add(arrayListMethodTest.dtoReturn(dto));
 
+        list.add(null);
         list.add("a");
         list.add("b");
         list.add("aa");
         list.add("azaa");
         list.add("aza");
         list.add(1);
+        System.out.println("after size " + list.size());
 
         System.out.println(list.get(0).getClass().getSimpleName());
 
