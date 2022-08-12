@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayListMethodTest {
+
     public static void main(String[] args) {
         ArrayListMethodTest arrayListMethodTest = new ArrayListMethodTest();
         List list = new ArrayList<>();
