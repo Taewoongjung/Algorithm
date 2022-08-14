@@ -21,6 +21,11 @@ public class StaticTest {
         System.out.println(stu.getName());
 
         System.out.println(stu.check());
+
+        String a = "aa";
+        String b = "zz";
+
+        System.out.println(a == b);
     }
 
     public static int add(int a, int b) {
