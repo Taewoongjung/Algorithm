@@ -22,7 +22,7 @@ public class TypeInterface {
     }
 
     public void makeObjects4() {
-        GenericClass<Integer> generic1 = new <String> GenericClass<>("String");
-        generic1.setValue(777);
+//        GenericClass<Integer> generic1 = new <String> GenericClass<>("String");
+//        generic1.setValue(777);
     }
 }
