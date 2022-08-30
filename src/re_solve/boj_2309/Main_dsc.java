@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Main {
+public class Main_dsc {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int[] arr = new int[9];
@@ -30,3 +30,7 @@ public class Main {
         }
     }
 }
+
+/*
+* 아홉명의 난쟁이 들의 키 - (특정 두명의 키) = 100
+* */
