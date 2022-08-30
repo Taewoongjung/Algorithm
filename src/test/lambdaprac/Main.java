@@ -27,5 +27,6 @@ public class Main {
     private void calculateSubtractLambda() {
         Calculate calculate = (a, b) -> a - b;
         System.out.println(calculate.operation(5, 2));
+
     }
 }

@@ -5,31 +5,29 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_1 {
+public class Main_3 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        Integer.parseInt(br.readLine());
-        int count = 0;
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        int N = Integer.parseInt(br.readLine());
+        int[] arr = new int[N];
 
-        while(st.hasMoreTokens()) {
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < N; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
+        }
+
+        int count = 0;
+        for (int i = 0; i < N; i++) {
             boolean isPrime = true;
 
-            int num = Integer.parseInt(st.nextToken());
-
-            if (num == 1) {
-                continue;
-            }
-            System.out.println(Math.sqrt(num));
-
-            for (int i = 2; i <= Math.sqrt(num); i++) {
-                if ( num % i  == 0) {
+            if(arr[i] == 1) continue;
+            for (int j = 2; j <= Math.sqrt(arr[i]); j++) {
+                if (arr[i] % j == 0) {
                     isPrime = false;
                     break;
                 }
             }
-
             if (isPrime) {
                 count++;
             }
