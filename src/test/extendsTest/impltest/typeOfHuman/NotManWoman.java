@@ -3,7 +3,7 @@ package test.extendsTest.impltest.typeOfHuman;
 import test.extendsTest.impltest.Human;
 import test.extendsTest.impltest.Robot;
 
-public class NotManWoman implements Human, Robot {
+public class NotManWoman extends DefaultMethodPrac implements Human {
 
     @Override
     public void walk() {
@@ -13,5 +13,10 @@ public class NotManWoman implements Human, Robot {
     @Override
     public void say() {
         System.out.println("나는 사람이 아닌 로봇이다. I am an IronMan");
+    }
+
+    @Override
+    public void defaultMe() {
+        System.out.println("replaced de Me");
     }
 }

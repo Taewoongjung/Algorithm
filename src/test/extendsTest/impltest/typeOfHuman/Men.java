@@ -1,5 +1,6 @@
 package test.extendsTest.impltest.typeOfHuman;
 
+import test.extendsTest.Parent;
 import test.extendsTest.impltest.Human;
 import test.extendsTest.impltest.Robot;
 

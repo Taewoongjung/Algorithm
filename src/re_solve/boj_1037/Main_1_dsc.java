@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Main_1 {
+public class Main_1_dsc {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -29,3 +29,8 @@ public class Main_1 {
         System.out.println(max * min);
     }
 }
+
+/*
+* 입력받은 것들을 list에 넣고,
+* 그 list를 정렬한 다음 리스트의 최소값고 최대값을 곱하면 된다.
+* */

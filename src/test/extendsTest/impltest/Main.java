@@ -14,6 +14,7 @@ public class Main {
         man.say();
         woman.walk();
         man.walk();
+        question.defaultMe();
 
         question.walk();
         question.say();
