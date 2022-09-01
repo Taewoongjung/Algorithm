@@ -2,10 +2,16 @@ package test.ttestt;
 
 public class JavacTest {
     public static void main(String[] args) {
-        Animal cat = new Cat(true, "bravo", "general", 8, 100, false);
-        Animal dog = new Dog(true, "nike", "unique", 9, 101, true);
+        String strChan = String.valueOf(23);
+        System.out.println(strChan);
+        int btn = strChan.charAt(0) - '0';
+        int btn2 = strChan.charAt(1) - '0';
+        System.out.println(btn);
+        System.out.println(btn2);
 
-        System.out.println(cat);
-        System.out.println(dog);
+        int a = Math.min(11, 11);
+        int b = Math.abs(100-111);
+        System.out.println("a = "+a);
+        System.out.println("b = "+b);
     }
 }
