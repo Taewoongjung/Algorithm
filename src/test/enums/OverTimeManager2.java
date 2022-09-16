@@ -5,6 +5,9 @@ public class OverTimeManager2 {
         OverTimeValues2 overTimeValues2 = OverTimeValues2.THREE_HOUR;
         System.out.println(overTimeValues2);
         System.out.println(overTimeValues2.getAmount());
+        OverTimeValues2 overTimeValues3 = OverTimeValues2.FIVE_HOUR;
+        System.out.println("@@ = "+overTimeValues3.compareTo(overTimeValues2));
+        System.out.println("@@ = "+overTimeValues3.equals(overTimeValues3));
 
         OverTimeValues2 []overTimevalues = OverTimeValues2.values();
 

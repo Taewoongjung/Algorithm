@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.StringTokenizer;
 
 public class Main_2 {
@@ -25,6 +26,7 @@ public class Main_2 {
         selected = new int[M];
         visited = new boolean[N];
 
+        HashMap a = new HashMap();
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
             arr[i] = Integer.parseInt(st.nextToken());

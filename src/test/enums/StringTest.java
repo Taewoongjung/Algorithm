@@ -1,7 +1,10 @@
 package test.enums;
 
-public class StringTest {
-    public static void main(String[] args) {
+import java.sql.SQLOutput;
+
+public class StringTest extends ThrowClass{
+    private static final ThrowClass throwClass = new ThrowClass();
+    public static void main(String[] args){
 
         String str = "Hello";
 
@@ -10,5 +13,10 @@ public class StringTest {
 
         String str2 = new String(buffer);
         System.out.println(str2);
+        try {
+            throwClass.throwIt();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
