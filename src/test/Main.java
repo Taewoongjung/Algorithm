@@ -37,10 +37,13 @@ public class Main {
         arr.add("1");
         return arr;
     }
+<<<<<<< HEAD
 
 //    "test"
 //    "test"
 //    "test"
 //    "test"
 //    "test"
+=======
+>>>>>>> 9088dad (test)
 }
