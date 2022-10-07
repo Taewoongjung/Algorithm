@@ -4,9 +4,20 @@ import java.time.LocalDate;
 
 public class TimeTest {
     public static void main(String[] args) {
-        if(LocalDate.of(2022,10,1).isBefore(LocalDate.now())) {
-            System.out.println("@@");
+        Hanoi(5, 0, 1, 2);
+    }
+
+    static void Hanoi(int N, int start, int mid, int to) {
+
+        if (N == 1) {
+            System.out.println(start + " " + to);
+            return;
         }
-        System.out.println("??");
+
+        Hanoi(N - 1, start, to, mid);
+
+        System.out.println(start + " " + to);
+
+        Hanoi(N - 1, mid, start, to);
     }
 }
