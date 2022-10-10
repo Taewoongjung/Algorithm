@@ -1,0 +1,18 @@
+
+7
+java:S1643*"Use a StringBuilder instead.(åÑº÷úÿÿÿÿ
+g
+java:S3008	"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ
+k
+java:S3008"URename this field "min_string" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙŞœ 
+p
+java:S3008"URename this field "max_string" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¢àùÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(³ùÆ“
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(œö©
+m
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(úÒİÿÿÿÿÿ
+2
+java:S1116."Remove this empty statement.(µšìâ
+7
+java:S11162"Remove this empty statement.(ÖÀÕĞùÿÿÿÿ
+V	java:S125R"<This block of commented-out lines of code should be removed.(—–‰öÿÿÿÿÿ

@@ -1,8 +1,6 @@
 
 R
 "src/re_solve/boj_14889/Main_1.java,2/a/2a1399851315fd16075d187aacf89fe18d660003
-P
- src/re_solve/boj_14889/Main.java,8/9/89c2cf5f7b0252c592470e4f3e32e5288570c3b3
 R
 "src/re_solve/boj_14889/Main_2.java,f/e/fe20f44dcc1b0d8aefecf8386f0f0a86a1343211
 L
@@ -11,3 +9,31 @@ O
 src/re_solve/boj_2529/Main.java,f/4/f4da6670ca31ff6910e6be631a97f34b9b308db9
 P
  src/re_solve/boj_15661/Main.java,c/c/cc07c38b2e1766957fb32293deaa52f6fd7c586c
+L
+src/main/boj_10972/Main.java,6/2/62a9fc94367d2c116703825761e10d0e61a2ffc6
+P
+ src/re_solve/boj_10972/Main.java,1/5/1565ca8011fe73764f056270051a237007998748
+K
+src/main/boj_6603/Main.java,d/0/d0511539bed4d0a3010bb9938ccac8530553e51b
+L
+src/main/boj_10973/Main.java,f/5/f57d483c8c0aee4ac3e2b50bc05d17f0cf61ecc0
+L
+src/main/boj_10974/Main.java,7/5/75cc4d30274347d2e4a91a98afd59fb8efc64f96
+L
+src/main/boj_10819/Main.java,3/9/39f605908073d043e001f4ef20f3c4b5d446caa4
+L
+src/main/boj_10971/Main.java,2/e/2e0d131111de03290975f840a35f976a5b92314f
+R
+"src/re_solve/boj_10971/Main_1.java,b/6/b6aa2e93da50f66217ee3eeda61339de435817c4
+O
+src/re_solve/boj_6603/Main.java,f/b/fb22a04a838fbddf46d3570a8ff805fe79930a6a
+L
+src/main/boj_13023/Main.java,2/5/252f05eb5cbbcce32820d67e2c36ffaf7b6d5128
+P
+ src/re_solve/boj_10971/Main.java,f/9/f906d1b8f532376054c2a0e8eec22957a61dcc92
+R
+"src/re_solve/boj_14889/Main_3.java,6/7/672e3271f8f4f7eb8a451dcc8123af0068e30d21
+R
+"src/re_solve/boj_14501/Main_1.java,8/f/8f2d5199d5c4ed84cdd691b59fb1fa7715c8f999
+K
+src/main/boj_2529/Main.java,0/a/0a95dcf6ab9678aab1f44c3c80b51a2071dcfafe
