@@ -66,7 +66,7 @@ public class Main {
                     else color[next] = 1;
 
                     q.offer(next);
-                } else {
+                } else { // 컬러를 다 뭍히며 다 돌고 와서 확인하면서 이분 그래프인지 확인
                     if (color[next] == color[cur]) { //이분그래프가 아님!!
                         result = "NO";
                     }
