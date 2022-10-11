@@ -27,8 +27,6 @@ R
 "src/re_solve/boj_10971/Main_1.java,b/6/b6aa2e93da50f66217ee3eeda61339de435817c4
 O
 src/re_solve/boj_6603/Main.java,f/b/fb22a04a838fbddf46d3570a8ff805fe79930a6a
-L
-src/main/boj_13023/Main.java,2/5/252f05eb5cbbcce32820d67e2c36ffaf7b6d5128
 P
  src/re_solve/boj_10971/Main.java,f/9/f906d1b8f532376054c2a0e8eec22957a61dcc92
 R
