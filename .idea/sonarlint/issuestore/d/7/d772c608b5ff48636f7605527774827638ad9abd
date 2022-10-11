@@ -1,0 +1,9 @@
+
+g
+java:S3008	"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ
+E
+java:S1197
+"*Move the array designators [] to the type.(Ç¸–çúÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(êÿ³Ö
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾ùôŒùÿÿÿÿ

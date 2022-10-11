@@ -33,7 +33,7 @@ public class Main {
         Queue<Pair> q = new LinkedList<>();
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                if (arr[i][j] == 0) continue; // 단지의 시작점 (i,j)가 갈 수 없는 곳이면 continue
+                if (arr[i][j] == 0) continue; // 단지의 시작점인(i,j)가 갈 수 없는 곳(0)이면 continue
                 if (!visited[i][j]) {
                     //BFS 시작
                     visited[i][j] = true;
@@ -70,10 +70,10 @@ public class Main {
             }
         }
 
-        // 각 단지별로 몇 개의 집이 있는지를 카운팅해야함
+        // 각 단지 별로 몇 개의 집이 있는지를 카운팅 해야함
         int [] house_cnt = new int[component_cnt + 1];
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
+        for (int i = 0; i < N + 1; i++) {
+            for (int j = 0; j < N + 1; j++) {
                 if (visited[i][j]) { // 방문을 한 정점이면
                     house_cnt[color[i][j]]++;
                 }
