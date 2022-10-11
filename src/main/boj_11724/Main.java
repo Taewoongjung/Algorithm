@@ -22,7 +22,7 @@ public class Main {
 
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
-        adj = new ArrayList[N+1];
+        adj = new ArrayList[N + 1];
         visited = new boolean[N + 1]; // index를 1부터 사용하기 때문에 N+1 로 한다.
 
         for (int i = 1; i <= N; i++) {  // 인접 리스트를 입력받는 틀은 외우자
