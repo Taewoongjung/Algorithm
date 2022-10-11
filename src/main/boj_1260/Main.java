@@ -67,7 +67,7 @@ public class Main {
             int temp = q.poll();
             System.out.print(temp + " ");
 
-            for (int i = 1; i <= N; i++) { // 인접 행렬로 하는 경우 1, N 을 하고 map[temp][i] == 1 을 한다.
+            for (int i = 1; i <= N; i++) { // 인접 행렬로 하는 경우 '1에서 N으로' 하고, 'map[temp][i] == 1' 을 한다.
                 if (map[temp][i] == 1 && !visited[i]) {
                     q.offer(i);
                     visited[i] = true;
