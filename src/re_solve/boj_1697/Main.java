@@ -44,6 +44,7 @@ public class Main {
                 }
 
                 if (next == K) {
+                    System.out.println(cur);
                     System.out.println(dist[cur]);
                     return;
                 }
