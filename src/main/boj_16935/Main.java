@@ -63,115 +63,127 @@ public class Main {
     }
 
     public static void f1() {
-        for (int i = 0; i < N / 2; i++) {
-            for (int j = 0; j < M; j++) {
-                int temp = arr[N - i - 1][j];
-                arr[N - i - 1][j] = arr[i][j];
+        int h = arr.length; // current height
+        int w = arr[0].length; // current width
+        for (int i = 0; i < h / 2; i++) {
+            for (int j = 0; j < w; j++) {
+                int temp = arr[h - i - 1][j];
+                arr[h - i - 1][j] = arr[i][j];
                 arr[i][j] = temp;
             }
         }
     }
 
     public static void f2() {
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < M / 2; j++) {
-                int temp = arr[i][M - j - 1];
-                arr[i][M - j - 1] = arr[i][j];
+        int h = arr.length; // current height
+        int w = arr[0].length; // current width
+        for (int i = 0; i < h; i++) {
+            for (int j = 0; j < w / 2; j++) {
+                int temp = arr[i][w - j - 1];
+                arr[i][w - j - 1] = arr[i][j];
                 arr[i][j] = temp;
             }
         }
     }
 
     public static void f3() {
-        int[][] temp = new int[arr[0].length][arr.length];
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < M; j++) {
-                temp[j][N - i - 1] = arr[i][j];
+        int h = arr.length; // current height
+        int w = arr[0].length; // current width
+        int[][] temp = new int[w][h];
+        for (int i = 0; i < h; i++) {
+            for (int j = 0; j < w; j++) {
+                temp[j][h - i - 1] = arr[i][j];
             }
         }
         arr = temp;
     }
 
     public static void f4() {
-        arr = new int[N][M];
-        int[][] temp = new int[arr[0].length][arr.length];
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < M; j++) {
-                temp[j][i] = arr[i][M - j - 1];
+        int h = arr.length; // current height
+        int w = arr[0].length; // current width
+        int[][] temp = new int[w][h];
+        for (int i = 0; i < h; i++) {
+            for (int j = 0; j < w; j++) {
+                temp[j][i] = arr[i][w - j - 1];
             }
         }
         arr = temp;
     }
 
     public static void f5() {
+        int h = arr.length; // current height
+        int w = arr[0].length; // current width
+
 //                1->2,
 //                2->3,
 //                3->4,
 //                4->1
-        int[][] temp = new int[N][M];
+        int[][] temp = new int[h][w];
 
 //                1 -> 2
-        for (int i = 0; i < N/2; i++) {
-            for (int j = 0; j < M/2; j++) {
-                temp[i][M/2 + j] = arr[i][j];
+        for (int i = 0; i < h/2; i++) {
+            for (int j = 0; j < w/2; j++) {
+                temp[i][w/2 + j] = arr[i][j];
             }
         }
 
 //                2 -> 3
-        for (int i = 0; i < N/2; i++) {
-            for (int j = M/2; j < M; j++) {
-                temp[N/2 + i][j] = arr[i][j];
+        for (int i = 0; i < h/2; i++) {
+            for (int j = w/2; j < w; j++) {
+                temp[h/2 + i][j] = arr[i][j];
             }
         }
 
 //                3 -> 4
-        for (int i = N/2; i < N; i++) {
-            for (int j = M/2; j < M; j++) {
-                temp[i][j - (M / 2)] = arr[i][j];
+        for (int i = h/2; i < h; i++) {
+            for (int j = w/2; j < w; j++) {
+                temp[i][j - (w / 2)] = arr[i][j];
             }
         }
 
 //                4 -> 1
-        for (int i = N/2; i < N; i++) {
-            for (int j = 0; j < M/2; j++) {
-                temp[i - (N / 2)][j] = arr[i][j];
+        for (int i = h/2; i < h; i++) {
+            for (int j = 0; j < w/2; j++) {
+                temp[i - (h / 2)][j] = arr[i][j];
             }
         }
         arr = temp;
     }
 
     public static void f6() {
+        int h = arr.length; // current height
+        int w = arr[0].length; // current width
 //                1->4,
 //                4->3,
 //                3->2,
 //                2->1
-        int[][] temp = new int[N][M];
+        int[][] temp = new int[h][w];
 
 //                1 -> 4
-        for (int i = 0; i < N/2; i++) {
-            for (int j = 0; j < M/2; j++) {
-                temp[i + (N / 2)][j] = arr[i][j];
+        for (int i = 0; i < h/2; i++) {
+            for (int j = 0; j < w/2; j++) {
+                temp[i + (h / 2)][j] = arr[i][j];
             }
         }
 
 //                4 -> 3
-        for (int i = N/2; i < N; i++) {
-            for (int j = 0; j < M/2; j++) {
-                temp[i][j + (M / 2)] = arr[i][j];
+        for (int i = h/2; i < h; i++) {
+            for (int j = 0; j < w/2; j++) {
+                temp[i][j + (w / 2)] = arr[i][j];
             }
         }
 
 //                3 -> 2
-        for (int i = N/2; i < N; i++) {
-            for (int j = M/2; j < M; j++) {
-                temp[i - (N / 2)][j] = arr[i][j];
+        for (int i = h/2; i < h; i++) {
+            for (int j = w/2; j < w; j++) {
+                temp[i - (h / 2)][j] = arr[i][j];
             }
         }
 
 //                2 -> 1
-        for (int i = 0; i < N/2; i++) {
-            for (int j = M/2; j < M; j++) {
-                temp[i][j - (M / 2)] = arr[i][j];
+        for (int i = 0; i < h/2; i++) {
+            for (int j = w/2; j < w; j++) {
+                temp[i][j - (w / 2)] = arr[i][j];
             }
         }
 
