@@ -1,17 +1,15 @@
-package main.boj_16926;
+package re_solve.boj_16927;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_dir {
+public class Main {
     static int N;
     static int M;
     static int R;
     static int[][] arr;
-    static int[] dir_x = {0, 0, 1, -1};
-    static int[] dir_y = {1, -1, 0, 0};
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -31,20 +29,29 @@ public class Main_dir {
         }
 
         int count = Math.min(N, M) / 2;
-        for (int r = 0; r < R; r++) {
+        for (int i = 0; i < count; i++) {
+            int interval = (N - 1 * i) + (N - 1 * i) + (M - 1 * i) + (M - 1 * i) - 4;
+            int rear_r = R % interval;
 
-            for (int i = 0; i < count; i++) {
-                int cur_x = i;
-                int cur_y = i;
+            for (int j = 0; j < rear_r; j++) {
+                int temp = arr[i][i];
 
-                int[][] temp = new int[cur_x][cur_y];
-
-                int dir = 0;
-                while (dir < 4) {
-                    int next_x = cur_x + dir_x[dir];
-                    int next_y = cur_y + dir_y[dir];
+                for (int k = i + 1; k < N - i; k++) {
+                    arr[i][k - 1] = arr[i][k];
                 }
 
+                for (int k = i + 1; k < M - i; k++) {
+                    arr[k - 1][M - 1 - i] = arr[k][M - 1 - i];
+                }
+
+                for (int k = M - 2 - i; k >= i; k--) {
+                    arr[N - 1 - i][k + 1] = arr[N - 1 - i][k];
+                }
+
+                for (int k = N - 2 - i; k >= i; k--) {
+                    arr[k + 1][i] = arr[k][i];
+                }
+                arr[i+1][i] = temp;
             }
         }
 
