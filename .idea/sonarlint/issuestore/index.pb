@@ -7,8 +7,6 @@ L
 src/main/boj_15661/Main.java,7/e/7e1d296309940bd7b1bf9c88472dd2062e191adf
 O
 src/re_solve/boj_2529/Main.java,f/4/f4da6670ca31ff6910e6be631a97f34b9b308db9
-P
- src/re_solve/boj_15661/Main.java,c/c/cc07c38b2e1766957fb32293deaa52f6fd7c586c
 L
 src/main/boj_10972/Main.java,6/2/62a9fc94367d2c116703825761e10d0e61a2ffc6
 P
