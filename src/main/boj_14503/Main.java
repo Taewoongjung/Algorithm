@@ -10,7 +10,6 @@ public class Main {
     static int Y;
     static int D; // 방향
     static int[][] map;
-    static boolean[][] visited;
     static int[] dir_x = {-1, 0, 1, 0};
     static int[] dir_y = {0, 1, 0, -1};
 
@@ -25,7 +24,6 @@ public class Main {
         M = Integer.parseInt(st.nextToken());
 
         map = new int[N][M];
-        visited = new boolean[N][M];
 
         st = new StringTokenizer(br.readLine());
         X = Integer.parseInt(st.nextToken());
@@ -43,8 +41,6 @@ public class Main {
                 map[i][j] = Integer.parseInt(st.nextToken());
             }
         }
-
-        visited[X][Y] = true;
 
         while (true) {
             boolean flag = true;
