@@ -1,0 +1,38 @@
+
+s	java:S135."YReduce the total number of break and continue statements in this loop to use at most one.(º—¥ÿúÿÿÿÿ
+k	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ŒÍ´úÿÿÿÿ
+k	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãØê‡üÿÿÿÿ
+f	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù‰„…
+f	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á‰£Á
+k	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¥­ıÿÿÿÿ
+k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôà¦§şÿÿÿÿ
+f	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ†‚
+f	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÅÚ†
+k	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éé´ ûÿÿÿÿ
+f	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ†‚
+f	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë”§ù
+k	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éé´ ûÿÿÿÿ
+k	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ±†•şÿÿÿÿ
+f	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïƒ‘»
+k	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éé´ ûÿÿÿÿ
+g	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Â“Ò
+g	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïƒ‘»
+l	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éé´ ûÿÿÿÿ
+g
+java:S3008	"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ
+g
+java:S3008
+"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ï¹Åüÿÿÿÿ
+f
+java:S3008"PRename this field "cur_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁñÚ‡
+k
+java:S3008"PRename this field "cur_y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÁ¿°şÿÿÿÿ
+g
+java:S3008"LRename this field "K" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íí¥şÿÿÿÿ
+i
+java:S3008"SRename this field "cur_dice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şíÏ›
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.(œû¿Ø
+B
+java:S1481"'Remove this unused "sb" local variable.(€ê±Õúÿÿÿÿ
+O	java:S106 "9Replace this use of System.out or System.err by a logger.(ëßí¼

@@ -1,0 +1,13 @@
+
+s	java:S1358"YReduce the total number of break and continue statements in this loop to use at most one.(£º¾âüÿÿÿÿ
+m	java:S127C"XRefactor the code in order to not assign to this loop counter from within the loop body.(çÑ‰˜
+g
+java:S3008	"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõþÿÿÿÿ
+g
+java:S3008
+"LRename this field "L" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¥¯Çùÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ
+m
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Ñïð’øÿÿÿÿ
+>
+java:S14814"(Remove this unused "cnt" local variable.(¢ó¢‰

@@ -16,8 +16,6 @@ K
 L
 src/main/boj_10973/Main.java,f/5/f57d483c8c0aee4ac3e2b50bc05d17f0cf61ecc0
 L
-src/main/boj_10974/Main.java,7/5/75cc4d30274347d2e4a91a98afd59fb8efc64f96
-L
 src/main/boj_10819/Main.java,3/9/39f605908073d043e001f4ef20f3c4b5d446caa4
 L
 src/main/boj_10971/Main.java,2/e/2e0d131111de03290975f840a35f976a5b92314f
@@ -67,3 +65,25 @@ O
 src/re_solve/boj_2667/Main.java,3/8/388e34292c292cc5fa0cb71dc9fc800478c6730e
 Q
 !src/re_solve/boj_2667/Main_1.java,f/7/f72979fe69e13993d996580117cc671ca25d6f38
+L
+src/main/boj_16927/Main.java,e/2/e20c1ae35c6b09836d8db8f0a3e4af11aa0dfbad
+P
+ src/re_solve/boj_16927/Main.java,b/2/b232e0e2d2b9aadcaa3b43f4949c625c573ae07d
+P
+ src/re_solve/boj_14499/Main.java,9/1/91c74b50364100f791b8b7d8d2189858229b967b
+P
+ src/re_solve/boj_14890/Main.java,2/f/2f8fc527f0ef73811d7c0ef89f73587775a1ca3d
+S
+#src/temp/storeOwner/StoreOwner.java,1/1/11445bf9969869ed2486e4ab64fdbcf4c0a72633
+W
+'src/temp/storeOwner/StoreOwnerTest.java,6/0/600eb4e2e126e25c4ae124b3b55181ed4cdd9f44
+Z
+*src/temp/storeOwner/StoreOwnerFixture.java,e/c/ec1c76cc00258a00e2cb85ca686651c10ba2f473
+L
+src/main/boj_14499/Main.java,4/f/4f4e359571295cf17fbda0e58861720afb09edbd
+P
+ src/re_solve/boj_15662/Main.java,a/5/a5cf51a41ae2307699751b9ac4b3d771ad8ea94a
+L
+src/main/boj_15662/Main.java,0/e/0ed81cb799104d2f2b9489dfb11bb8b328849134
+R
+"src/re_solve/boj_15662/Main_1.java,1/c/1ca2f2931ff806e40e8490a1dded59f2abaefa41
