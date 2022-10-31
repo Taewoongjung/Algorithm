@@ -1,0 +1,21 @@
+
+g
+java:S3008	"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõþÿÿÿÿ
+g
+java:S3008
+"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ï¹Åüÿÿÿÿ
+a
+java:S3008"LRename this field "R" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚íŽ;
+g
+java:S3008"LRename this field "O" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­‡‡ñøÿÿÿÿ
+<	java:S131#""Add a default case to this switch.(ŽžÑ¦ûÿÿÿÿ
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(é¼Ã´ùÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+p
+java:S3012…"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(–—Å›
+u
+java:S3012“"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(†Õš±ÿÿÿÿÿ
+u
+java:S3012¥"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(¹ƒ¬¾ûÿÿÿÿ
+u
+java:S3012³"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(†Õš±ÿÿÿÿÿ
