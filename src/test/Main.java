@@ -1,57 +1,29 @@
 package test;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class Main {
+
     public static void main(String[] args) throws IOException {
-//        String a = new String("A");
-//        String b = new String("A");
-//        System.out.println(a.equals(b));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        StringBuilder sb = new StringBuilder();
 
-//        List<Object> arr = new ArrayList<Object>();
-//        addElement(arr, 1);
-//        addElement(arr, "1");
-//          된다!!!
-//        List<Object> getList = getList();
-//        System.out.println(getList);
+        int N = Integer.parseInt(st.nextToken());
+        int X = Integer.parseInt(st.nextToken());
 
+        int[] arr = new int[N];
 
-        List<Object> arr = new ArrayList<Object>();
-//        addElement(arr, 1);
-//        addElement(arr, "1");
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < N; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
 
-//        List<Object> getList = getList();
-//        System.out.println(getList);
+            if (arr[i] < X) {
+                sb.append(arr[i] + " ");
+            }
+        }
 
-
-//        List<?> arr1 = new ArrayList<>();
-//        arr1.add(1);
-//        arr1.add("1");
-//        System.out.println(arr);
-
-
-//        List<?> arr11 = getList();
-//        System.out.println(arr11);
+        System.out.println(sb);
     }
-
-    public static List<?> getList() {
-        List<Object> arr = new ArrayList<Object>();
-        arr.add(1);
-        arr.add("1");
-        return arr;
-    }
-
-//    public static void addElement(List<?> list, Object element) {
-//        list.add(element);
-//    }
-
-//    public static List<Object> getList() {
-//        List<Object> arr = new ArrayList<Object>();
-//        arr.add(1);
-//        arr.add("1");
-//        return arr;
-//    }
 }
