@@ -1,19 +1,0 @@
-
-s	java:S135,"YReduce the total number of break and continue statements in this loop to use at most one.(ş“µŞúÿÿÿÿ
-k	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Šá¨ıÿÿÿÿ
-f	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÏÏÅ
-f	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ú°ß
-f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á€ñë
-g
-java:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ
-g
-java:S3008"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ï¹Åüÿÿÿÿ
-h
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(œû¿Ø
-E
-java:S1197 "*Move the array designators [] to the type.(ÙßŠ´úÿÿÿÿ
-E
-java:S1197!"*Move the array designators [] to the type.(ûîÂÃùÿÿÿÿ
-U	java:S106;"9Replace this use of System.out or System.err by a logger.(Ñß›â8÷à—¼0
-Z	java:S106="9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ùßí˜¼0
-Z	java:S106?"9Replace this use of System.out or System.err by a logger.(­èŸàıÿÿÿÿ8úßí˜¼0

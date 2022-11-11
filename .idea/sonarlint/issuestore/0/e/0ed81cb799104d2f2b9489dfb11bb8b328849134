@@ -1,14 +1,0 @@
-
-J
-java:S1066B"/Merge this if statement with the enclosing one.(Ä©¢Çüÿÿÿÿ
-E
-java:S1066N"/Merge this if statement with the enclosing one.(Â“ˆ§
-g
-java:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõþÿÿÿÿ
-g
-java:S3008"LRename this field "T" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øš‹¢øÿÿÿÿ
-S	java:S1065"9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ
-B
-java:S1125B"'Remove the unnecessary boolean literal.(Ä©¢Çüÿÿÿÿ
-=
-java:S1125N"'Remove the unnecessary boolean literal.(Â“ˆ§

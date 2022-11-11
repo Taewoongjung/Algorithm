@@ -1,0 +1,19 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ü‚‰µûÿÿÿÿ
+t
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(Ü‚‰µûÿÿÿÿ
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø
+Q	java:S125	"<This block of commented-out lines of code should be removed.(žÿµ”
+V	java:S125"<This block of commented-out lines of code should be removed.(Öˆóýÿÿÿÿ
+C
+java:S1481"(Remove this unused "arr" local variable.(Ü‚‰µûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(°ãŒùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¬ðØÆüÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(š‘éçøÿÿÿÿ
+P	java:S125#"<This block of commented-out lines of code should be removed.(ªÇB
+<
+java:S1452'"&Remove usage of generic wildcard type.(ŒÞ¼Ý
+Q	java:S125."<This block of commented-out lines of code should be removed.(êï©º
+V	java:S1252"<This block of commented-out lines of code should be removed.(ƒÙØ•ùÿÿÿÿ

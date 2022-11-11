@@ -1,0 +1,10 @@
+
+f	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬½¸†
+g
+java:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûîèõşÿÿÿÿ
+k
+java:S3008	"PRename this field "dir_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì«¤‚ùÿÿÿÿ
+k
+java:S3008
+"PRename this field "dir_y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÂÒøúÿÿÿÿ
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
