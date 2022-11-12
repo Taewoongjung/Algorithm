@@ -9,7 +9,6 @@ public class Main {
 
         int N = in.nextInt();
 
-
         if (N == 4 || N == 7) {
             System.out.println(-1);
         }
@@ -23,5 +22,4 @@ public class Main {
             System.out.println((N / 5) + 2);
         }
     }
-
 }
