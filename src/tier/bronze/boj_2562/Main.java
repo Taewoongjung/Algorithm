@@ -1,4 +1,4 @@
-package bronze.boj_2562;
+package tier.bronze.boj_2562;
 
 import java.io.*;
 

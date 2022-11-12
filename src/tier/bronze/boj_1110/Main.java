@@ -1,7 +1,6 @@
-package bronze.boj_1110;
+package tier.bronze.boj_1110;
 
 import java.io.*;
-import java.util.*;
 
 public class Main {
 

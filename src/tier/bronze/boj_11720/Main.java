@@ -1,21 +1,24 @@
-package bronze.boj_3052;
+package tier.bronze.boj_11720;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashSet;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        HashSet set = new HashSet();
 
-        for (int i = 0; i < 10; i++) {
-            int input = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(br.readLine());
+        String X = br.readLine();
 
-            set.add(input % 42);
+        int result = 0;
+
+        for (int i = 0; i < N; i++) {
+            result += X.charAt(i) - '0';
         }
-        System.out.println(set.size());
+
+        System.out.println(result);
     }
 }

@@ -1,4 +1,4 @@
-package bronze.boj_11021;
+package tier.bronze.boj_11022;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,7 +20,7 @@ public class Main {
             int b = Integer.parseInt(st.nextToken());
             result = a + b;
 
-            sb.append("Case #"+ i + ": " + result).append("\n");
+            sb.append("Case #"+ i + ": " + a + " + " + b + " = " + result).append("\n");
         }
 
         System.out.println(sb);

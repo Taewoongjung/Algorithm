@@ -1,4 +1,4 @@
-package bronze.boj_2577;
+package tier.bronze.boj_2577;
 
 import java.io.BufferedReader;
 import java.io.IOException;
