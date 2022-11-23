@@ -1,4 +1,4 @@
-package tier.bronze.boj_2440;
+package tier.bronze.boj_2441;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,6 +12,9 @@ public class Main {
         int N = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < N; i++) {
+            for (int k = 0; k < i; k++) {
+                System.out.print(" ");
+            }
             for (int j = N - i; j > 0; j--) {
                 System.out.print("*");
             }
