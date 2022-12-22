@@ -69,3 +69,11 @@ P
  src/code/plus/boj_2290/Main.java,3/6/363eaeebeadd0a7a7d05184652bd3d5663b63bfb
 Q
 !src/code/plus/boj_15685/Main.java,0/1/01d8d1335a4fe030f9d011424ee512cdab39d3ed
+R
+"src/tier/bronze/boj_2440/Main.java,4/8/485f220c60345d13e622fedc204e9900a3a67e41
+R
+"src/tier/bronze/boj_2292/Main.java,c/3/c31be82a2d8c2ef43e8d98d6180c6546769aa811
+R
+"src/tier/bronze/boj_1712/Main.java,9/4/94d8a41e0ffc64a9ba1018861e6416a5c7c3423e
+R
+"src/tier/bronze/boj_1546/Main.java,f/3/f386647cb769623aab7cce1965be94696507fc39
